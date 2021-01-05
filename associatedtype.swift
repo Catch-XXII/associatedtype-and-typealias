@@ -1,5 +1,4 @@
-//What do we need generics in Swift for?
-//What does keyword associatedtype and typealias mean to you?
+import Foundation 
 
 protocol P1 {
     associatedtype Item: Equatable
