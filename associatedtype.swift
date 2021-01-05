@@ -18,7 +18,19 @@ struct StructWithStrings: P1 {
     var itemArray: [String]
 }
 
+var str = StructWithStrings(itemArray: [String]())
+
+str.add(item: "Hello world!")
+
+print(str)
+
 struct StructWithInts: P1 {
     typealias Item = Int
     var itemArray: [Int]
 }
+
+var intArr = StructWithInts(itemArray: [Int]())
+
+intArr.add(item: 1)
+
+print(intArr)
